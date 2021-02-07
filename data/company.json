@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Ice Cream",
+    "description":  "I confess",
+    "image_source": "https://upload.wikimedia.org/wikipedia/commons/4/45/Food-ice-cream_%2824244079871%29.jpg",
+    "url": "ice-cream"
+  },
+  {
+    "name": "Fish & Chips",
+    "description": "Fíli and Kíli were the two most active dwarves of Thorin's company, and apart from Balin, and possibly Bombur, they appeared more frequently as 'individual' characters in Tolkien's novel than the rest of Thorin's companions, who were most often named only in 'group' references to the entire company.",
+    "image_source": "static/img/ice_cream.jpg",
+    "url": "fish-and-chips"
+  }
+]
