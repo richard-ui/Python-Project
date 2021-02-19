@@ -85,6 +85,7 @@ def profile(username):
     if session["user"]:
         return render_template("profile.html", username=username)
 
+    # redirect user back to login page if session not set
     return redirect(url_for("login"))
 
 
@@ -98,7 +99,7 @@ def logout():
 
 @app.route("/get_tasks")
 def get_tasks():
-    tasks = mongo.db.tasks.find()
+    tasks = list(mongo.db.tasks.find())
     return render_template("tasks.html", tasks=tasks)
 
 
